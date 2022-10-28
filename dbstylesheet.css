@@ -1,0 +1,188 @@
+* {
+	font-family: Verdana, Geneva, sans-serif; 
+	color: "black";
+	text-align: center;
+}
+
+.c-header {
+    color: "white";
+    overflow: hidden;
+    background-color: #CEA983;
+    padding: 20px 10px;
+}
+
+.c-header-a {
+    float: left;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.c-header_right {
+    float: center;
+}
+
+a:hover {
+    color: #99774b;
+}
+
+body {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #DBCAB5;
+}
+
+.header-links {
+    font-size: 15px;
+    color: #46423E;
+    text-decoration: none;
+    padding: 20px 0px;
+
+}
+
+article.sideBySide {
+	padding: 10px;
+    background-color: #CFB695;
+	margin: 10px;
+	width: 430px;
+	float: left;
+}
+
+article.main2 {
+	padding: 10px;
+    background-color: #CFB695;
+	margin: 10px;
+	float: left;
+}
+
+article.main22 {
+	padding: 10px;
+    background-color: #CFB695;
+	margin: 10px;
+}
+
+main {
+	padding: 10px;
+	background-color: white;
+}
+
+.sidebarimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 67.3%;
+	border: 5px solid white;
+}
+
+h3 {
+	font-weight: normal;
+	color: black;
+}
+
+strong {
+    color: #3b3630;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+	overflow: auto;
+	height: 100%;
+}
+
+
+ul {
+	list-style-position: inside;
+	text-align: center;
+	display: inline-block;
+}
+
+dt {
+	color: #99621e;
+	text-align: left;
+}
+
+dd {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+nav {
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+
+a.links:hover {
+  color: #f8cf3a;
+}
+
+
+
+#content {
+	overflow: auto;
+	height: 100%;
+
+}
+
+h1.pageHeader {
+	font-weight: bold;
+	color: #99621e;
+}
+
+
+
+.centerImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border: 5px solid orange;
+}
+
+.centerImage2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 67.3%;
+	border: 5px solid pink;
+}
+
+.navCurrentPage {
+	font-weight: normal;
+}
+
+.imageCredit {
+	font-size: 10px;
+	color: #99621e;
+	font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.column1, .column2, .column3 {
+	float: left;
+	margin: 10px;
+	width: 50%;
+}
+
+.variousLinks {
+	background-color: #fdd8e2;
+}
+
+
+
+.links {
+  color: #99621e;
+}

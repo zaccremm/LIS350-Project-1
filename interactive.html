@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<meta charset="UTF-8">
+	<title>Zachary Remus' Volvelle Database</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="dbstylesheet.css">
+
+    <!-- Heading; DO NOT DELETE-->
+	<body>
+        <div class="c-header">
+            <a class="c-header-a" href="./index.html">Volvelles in the History of Books</a>
+            <br><br>
+            <div class="c-header_right">
+                <a class="header-links" href="./index.html">| Home |</a>
+                <a class="header-links" href="./function.html"> Function |</a>
+                <a class="header-links" href="./origin.html"> Origin |</a>
+                <a class="header-links" href="./process.html"> Creation |</a>
+                <a class="header-links" href="./interactive.html"> Interactive Example |</a>
+                <a class="header-links" href="./modern.html"> Modern Volvelles |</a>
+                <a class="header-links" href="./sources.html"> Sources |</a>
+
+            </div>
+        </div>
+
+        <marquee behavior="scroll" direction="left" scrollamount="10" style="background: white;">
+            • • • Welcome! Click the links above to navigate the pages! • • • Created by Zachary Remus for LIS 350 Fall 2022 • • • </marquee>
+
+        <br>
+
+        <!-- Main Body of Page -->
+        <section>
+
+			<article class="main2">
+				<h2>Interactive Example</h2>
+				<h5 style="color: rgb(110, 74, 15);">**If sliders stop functioning/freeze or the images do not load, try reloading the page**</h5>
+
+				<p> Try a volvelle for yourself! Use the sliders below to rotate the respective parts. Coded by me using Javascript and HTML Canvas.</p>
+
+                <canvas id="myCanvas" 
+                width="400" height="450"
+                style="border:1px solid #000;">
+                </canvas>  
+
+                <br/>Piece 1:
+                <input id="mySlider1" type="range" min="0" max="20" />
+
+                <br/>Piece 2:
+                <input id="mySlider2" type="range" min="0" max="20" />
+
+                <script src="inter.js" id="module"></script>
+
+                <br>
+                <p>This volvelle is a <strong>lunar clock</strong> from Peter Apianus' "Cosmographia" <a href="./sources.html" style="color:brown; font-size:10px; ">[7]</a>.
+                    The owner would match up the top piece ("Piece 2" slider) to the current moon phase, then match the middle piece ("Piece 1" slider)
+                    to the current time. Doing so would give a model that you can use to determine the location of the sun, even at night <a href="./sources.html" style="color:brown; font-size:10px; ">[8]</a>.
+                </p>
+
+
+     
+				<br>
+			</article>
+
+		</section>
+
+
+        <!-- Footer -->
+        <main>
+            <p>Made by Zachary Remus for LIS350, Fall 2022.</p>
+        </main>
+
+		<footer>
+            <p></p>
+		</footer>
+
+
+	</body>
+</html>
